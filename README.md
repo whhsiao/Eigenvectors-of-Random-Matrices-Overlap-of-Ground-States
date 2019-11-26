@@ -17,3 +17,5 @@ The simplest model for _2N_ Majorana fermions consists of a _2N_ by _2N_ antisym
 That day a friend of mine came to me, discussing the discovery that was troubling her. Apart from her main puzzle, I realized what she did was essentially computing the overlap of the ground states of the same set of Majorana fermions "energized" by two different _A_ s. 
 
 Neither did I want to steal the thunder, and nor did I possess the technical skills to do so. It came across me that if one was aiming to deduce any result for two general _A_ s, such property could probably holds true for two arbitrarily selected _A_ s. This naive idea led to some simulation results of the ground state overlaps. 
+
+![The distributions of overlaps](https://github.com/whhsiao/Eigenvectors-of-Random-Matrices-Overlap-of-Ground-States/blob/master/distributions.png)
