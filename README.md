@@ -18,6 +18,9 @@ That day a friend of mine came to me, discussing the discovery that was troublin
 
 Neither did I want to steal the thunder, and nor did I possess the technical skills to do so. It came across me that if one was aiming to deduce any result for two general _A_ s, such property could probably holds true for two arbitrarily selected _A_ s. This naive idea led to some simulation results of the ground state overlaps. 
 
-This idea is implemented as follows. I initialize two matrix's _A_, _B_, the entries of each of which are uniformly generated random number over a range. Two asymmetric Hermitian matrices are constructed with i(_A_ - _A_^T)/4 and i(_B_ - _B_^T)/4. They then can be diagonalized, and the overlap of the ground states can be computed. Repeating this process for a couple of times, we can plot the histogram of the distribution of the magnitude of overlaps. In the following I plot the histograms after 10000 iterations with different matrix sizes (4 by 4, 20 by 20, 40 by 40). The index _i_ denotes the range of random number.
+This idea is implemented as follows. I initialize two matrix's _A_, _B_, the entries of each of which are uniformly generated random number over a range. Two asymmetric Hermitian matrices are constructed with i(_A_ - _A_^T)/4 and i(_B_ - _B_^T)/4. They then can be diagonalized, and the overlap of the ground states can be computed. Repeating this process for a couple of times, we can plot the histogram of the distribution of the magnitude of overlaps. In the following I plot the histograms after 10000 iterations with different matrix sizes (4 by 4, 20 by 20, 40 by 40). The index _i_ denotes the range of random number. (When there are _N_ fermions in the problem, the matrix will be of size 2 _N_ by 2 _N_.)
 
 ![The distributions of overlaps](https://github.com/whhsiao/Eigenvectors-of-Random-Matrices-Overlap-of-Ground-States/blob/master/distributions.png)
+
+## Fitting the distribution for Fairly large dimensions 
+The above rows suggest that they may form some kind of distributions especially when the number of fermions become large. 
