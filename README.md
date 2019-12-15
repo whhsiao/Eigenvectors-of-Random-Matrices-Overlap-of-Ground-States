@@ -51,3 +51,5 @@ Based on eyeballing, we see GSE could be a role model of these sequence of obser
 The next goal for me is to find a probability distribution that can model this. A probability model should satisfy the following conditions.
 * The domain is bounded within [0,1].
 * The distribution is left skewed. 
+
+## Fidelity susceptibility of GSE
